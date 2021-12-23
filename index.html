@@ -1,0 +1,128 @@
+<!--Favicons are icons
+        favicon.cc
+        <link rel="shortcut icon" href="favicon.ico?" type="image/x-icon"-->
+<!--div
+        use to group elements for css purposes
+        <div></div>-->
+
+<!--Margins are the buffer zone between the current element and the other element and can be changed
+        margin:10px;-->
+
+<!--padding is used to create a space between the text and the edge of the element
+        padding:10px-->
+
+<!--borders are the border
+        border:solid;
+        border-width:10px;
+        border: solid 10px;-->
+
+<!--span are like div but are inlined
+        <span></span>-->
+
+<!--Displays
+        display: inlined;               //means that it is one lineable, width cannont be changed
+        display: block;                 //not one lineable, width can be changed
+        display: inlined-block;         //means that it is one lineable, and we can change width
+        display: none;                  //means that it is get rids of the elements
+        visibility: hidden;             //means that the element is hidden but is still there1-->
+
+<!--Positioning elements 
+        position: static;       //default position, go along with the HTML rules and keep to the default
+        position: relative;     //position the element that we select relative to how it would have been postioned had it been static
+                left: 30px;             //add 30px to the left from the original position: top, botoom, left, right
+        position: absolute;     //adding a margin to its parent element, affects other elements position
+        posiiion: fixed;        //fixed at the position even when scolling-->
+
+<!--Text alignment
+        use in the parent element
+        text-align: center;             //can be left, right, or center: align if width is not set with percentage
+                another way to position an element is with margins 
+                if width of a block display element is changed you need to use auto to postion it
+                margin: 0 auto 0 auto;
+                margin: 0 auto;
+                margin: auto;-->
+
+<!--Changing Font
+        web safe fonts  //to find a safe font
+        cssfontstack    //to check likelihood of font and to get the next best thing
+        google font     //to install available font to your website
+                copy link-->
+
+<!--Font size
+        can change percent, or em, or px
+        use rem
+        em and percent stacks
+        px does not change-->
+
+<!--Line height
+        line-height: 2;         //don't give unit spacing between top and bottom-->
+
+<!--Font weight
+        font-weight: normal;    //control boldness-->
+
+<!--Float Elemen
+        float: left;            //put element on the left, use for wanting to wrap text-->
+
+<!--Buttons
+        https://css3buttongenerator.com/
+        <a class="btn" href="mailto:name@email.com">CONTACT ME</a>              //class name be btn-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bryan Nguyen</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="shortcut icon" href="favicon.ico?" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="top-container">
+      <img class="top-cloud" src="images/cloud.png" alt="Cloud-img"/>
+      <h1>I'm Bryan.</h1>
+      <h2>a <span class="pro">pro</span>grammer.</h2>
+      <img class="bottom-cloud" src="images/cloud.png" alt="Cloud-img"/>
+      <img src="images/mountain.png" alt="Mountain-img"/>
+    </div>
+    <div class="middle-container">
+  <div class="profile">
+    <img src="images/BryanNguyen.png" alt="Picture of me">
+    <h2>Hello.</h2>
+    <p class="intro">Lorem ipsum dolor sit amet, vitae volutpat, dui conubia, dolor urna. Non auctor, montes nulla distinctio.</p>
+  </div>
+  <hr>
+  <div class="skills">
+    <h2>My Skills.</h2>
+    <div class="skill-row">
+      <img class="code-img" src="images/computer.png" alt="Picture of software developer">
+      <h3>Lorem & Ipsum</h3>
+      <p class="">Lorem ipsum dolor sit amet, quis in duis, iaculis id felis. Consectetuer vestibulum, nunc urna lectus, erat ligula. Hendrerit nam, lectus ante, ut lorem eros.</p>
+    </div>
+    <div class="skill-row">
+      <img class="chilli-img" src="images/chillies.png" alt="Picture of chillies">
+      <h3>Lorem Ipsum Dolor</h3>
+      <p class="">Lorem ipsum dolor sit amet, mauris sed consectetuer. Etiam et eu, bibendum interdum, lacus quis mauris. Curabitur wisi, quisque vel eu, rutrum nam.</p>
+    </div>
+  </div>
+  <hr>
+  <div class="contact-me">
+    <h2>Get In Touch</h2>
+    <h3>Lorem ipsum dolor sit amet, non elit.</h3>
+    <p class="contact-message">Lorem ipsum dolor sit amet, in quis, aenean amet. Phasellus sodales, tellus donec dui, ornare erat.</p>
+    <a class="btn" href="mailto:name@email.com">CONTACT ME</a>
+  </div>
+</div>
+
+
+<div class="bottom-container">
+  <a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a>
+  <a class="footer-link" href="https://twitter.com/">Twitter</a>
+  <a class="footer-link" href="https://www.appbrewery.co/">Website</a>
+  <p class="copyright">© Bryan Nguyen.</p>
+</div>
+  </body>
+</html>
